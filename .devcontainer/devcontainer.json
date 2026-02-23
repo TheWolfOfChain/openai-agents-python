@@ -1,0 +1,13 @@
+{
+    "nome": "TA2MA-DCM-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", //
+    "caratteristiche": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "versione": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "versione": "T2M",
+            "moby": vero
+        }
+    }
+}
